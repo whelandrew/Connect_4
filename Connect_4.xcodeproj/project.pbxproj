@@ -200,8 +200,13 @@
 		3B66D23A1A12B274009CCEEA /* LICENSE_Chipmunk.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3B66D2391A12B274009CCEEA /* LICENSE_Chipmunk.txt */; };
 		3B66D23E1A12B274009CCEEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B66D23D1A12B274009CCEEA /* main.m */; };
 		3B66D2421A12B274009CCEEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B66D2411A12B274009CCEEA /* AppDelegate.m */; };
-		3B66D2451A12B274009CCEEA /* HelloWorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B66D2441A12B274009CCEEA /* HelloWorldScene.m */; };
+		3B66D2451A12B274009CCEEA /* GameBoardScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B66D2441A12B274009CCEEA /* GameBoardScene.m */; };
 		3B66D2481A12B274009CCEEA /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B66D2471A12B274009CCEEA /* IntroScene.m */; };
+		3BC0376E1A14214B0043167F /* Slot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC0376D1A14214B0043167F /* Slot.m */; };
+		3BC037711A1566B20043167F /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC037701A1566B20043167F /* Player.m */; };
+		3BC037751A17DD7D0043167F /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BC037721A17DD7D0043167F /* green.png */; };
+		3BC037761A17DD7D0043167F /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BC037731A17DD7D0043167F /* red.png */; };
+		3BC037771A17DD7D0043167F /* slot.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BC037741A17DD7D0043167F /* slot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -609,10 +614,17 @@
 		3B66D23D1A12B274009CCEEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
 		3B66D2401A12B274009CCEEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		3B66D2411A12B274009CCEEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		3B66D2431A12B274009CCEEA /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
-		3B66D2441A12B274009CCEEA /* HelloWorldScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloWorldScene.m; path = Classes/HelloWorldScene.m; sourceTree = "<group>"; };
+		3B66D2431A12B274009CCEEA /* GameBoardScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GameBoardScene.h; path = Classes/GameBoardScene.h; sourceTree = "<group>"; };
+		3B66D2441A12B274009CCEEA /* GameBoardScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GameBoardScene.m; path = Classes/GameBoardScene.m; sourceTree = "<group>"; };
 		3B66D2461A12B274009CCEEA /* IntroScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntroScene.h; path = Classes/IntroScene.h; sourceTree = "<group>"; };
 		3B66D2471A12B274009CCEEA /* IntroScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IntroScene.m; path = Classes/IntroScene.m; sourceTree = "<group>"; };
+		3BC0376C1A14214B0043167F /* Slot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Slot.h; path = Classes/Slot.h; sourceTree = "<group>"; };
+		3BC0376D1A14214B0043167F /* Slot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Slot.m; path = Classes/Slot.m; sourceTree = "<group>"; };
+		3BC0376F1A1566B20043167F /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = Classes/Player.h; sourceTree = "<group>"; };
+		3BC037701A1566B20043167F /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Player.m; path = Classes/Player.m; sourceTree = "<group>"; };
+		3BC037721A17DD7D0043167F /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green.png; path = "../../../Downloads/c4resouces 2/green.png"; sourceTree = "<group>"; };
+		3BC037731A17DD7D0043167F /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red.png; path = "../../../Downloads/c4resouces 2/red.png"; sourceTree = "<group>"; };
+		3BC037741A17DD7D0043167F /* slot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = slot.png; path = "../../../Downloads/c4resouces 2/slot.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -686,6 +698,9 @@
 		3B66CFE11A12B272009CCEEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3BC037721A17DD7D0043167F /* green.png */,
+				3BC037731A17DD7D0043167F /* red.png */,
+				3BC037741A17DD7D0043167F /* slot.png */,
 				3B66CFE21A12B272009CCEEA /* Default.png */,
 				3B66CFE41A12B272009CCEEA /* Default@2x.png */,
 				3B66CFE61A12B272009CCEEA /* Default-568h@2x.png */,
@@ -1425,10 +1440,14 @@
 			children = (
 				3B66D2401A12B274009CCEEA /* AppDelegate.h */,
 				3B66D2411A12B274009CCEEA /* AppDelegate.m */,
-				3B66D2431A12B274009CCEEA /* HelloWorldScene.h */,
-				3B66D2441A12B274009CCEEA /* HelloWorldScene.m */,
+				3B66D2431A12B274009CCEEA /* GameBoardScene.h */,
+				3B66D2441A12B274009CCEEA /* GameBoardScene.m */,
 				3B66D2461A12B274009CCEEA /* IntroScene.h */,
 				3B66D2471A12B274009CCEEA /* IntroScene.m */,
+				3BC0376C1A14214B0043167F /* Slot.h */,
+				3BC0376D1A14214B0043167F /* Slot.m */,
+				3BC0376F1A1566B20043167F /* Player.h */,
+				3BC037701A1566B20043167F /* Player.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1502,6 +1521,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B66CFE51A12B272009CCEEA /* Default@2x.png in Resources */,
+				3BC037751A17DD7D0043167F /* green.png in Resources */,
 				3B66CFF81A12B272009CCEEA /* Icon-120.png in Resources */,
 				3B66CFEE1A12B272009CCEEA /* Icon@2x.png in Resources */,
 				3B66D0001A12B272009CCEEA /* Icon-Small@2x.png in Resources */,
@@ -1516,11 +1536,13 @@
 				3B66CFF01A12B272009CCEEA /* Icon-72.png in Resources */,
 				3B66D1CC1A12B274009CCEEA /* LICENSE_CCBReader.txt in Resources */,
 				3B66D13C1A12B273009CCEEA /* LICENSE_cocos2d.txt in Resources */,
+				3BC037771A17DD7D0043167F /* slot.png in Resources */,
 				3B66CFE71A12B272009CCEEA /* Default-568h@2x.png in Resources */,
 				3B66D0071A12B272009CCEEA /* iTunesArtwork in Resources */,
 				3B66D0021A12B272009CCEEA /* Icon-Spotlight-iOS7.png in Resources */,
 				3B66CFF61A12B272009CCEEA /* Icon-76@2x.png in Resources */,
 				3B66D0041A12B272009CCEEA /* Icon-Spotlight-iOS7@2x.png in Resources */,
+				3BC037761A17DD7D0043167F /* red.png in Resources */,
 				3B66CFF41A12B272009CCEEA /* Icon-76.png in Resources */,
 				3B66D0091A12B272009CCEEA /* iTunesArtwork@2x in Resources */,
 			);
@@ -1555,7 +1577,7 @@
 				3B66D01B1A12B272009CCEEA /* CCEffect.m in Sources */,
 				3B66D1B91A12B274009CCEEA /* CCBAnimationManager.m in Sources */,
 				3B66D1271A12B273009CCEEA /* CCVertex.m in Sources */,
-				3B66D2451A12B274009CCEEA /* HelloWorldScene.m in Sources */,
+				3B66D2451A12B274009CCEEA /* GameBoardScene.m in Sources */,
 				3B66D05B1A12B272009CCEEA /* CCAnimationCache.m in Sources */,
 				3B66D1151A12B273009CCEEA /* base64.c in Sources */,
 				3B66D09E1A12B272009CCEEA /* CCParticleSystemBase.m in Sources */,
@@ -1598,6 +1620,7 @@
 				3B66D0831A12B272009CCEEA /* CCMotionStreak.m in Sources */,
 				3B66D18D1A12B274009CCEEA /* NSMutableArray+WeakReferences.m in Sources */,
 				3B66D17B1A12B274009CCEEA /* OpenALManager.m in Sources */,
+				3BC0376E1A14214B0043167F /* Slot.m in Sources */,
 				3B66D0EB1A12B273009CCEEA /* CCTMXXMLParser.m in Sources */,
 				3B66D1201A12B273009CCEEA /* CCProfiling.m in Sources */,
 				3B66D1821A12B274009CCEEA /* OALSuspendHandler.m in Sources */,
@@ -1629,6 +1652,7 @@
 				3B66D0E11A12B273009CCEEA /* CCTiledMap.m in Sources */,
 				3B66D0231A12B272009CCEEA /* CCEffectColorPulse.m in Sources */,
 				3B66D0B91A12B273009CCEEA /* CCResponder.m in Sources */,
+				3BC037711A1566B20043167F /* Player.m in Sources */,
 				3B66D0B51A12B273009CCEEA /* CCRenderTexture.m in Sources */,
 				3B66D06D1A12B272009CCEEA /* ccFPSImages.m in Sources */,
 				3B66D17F1A12B274009CCEEA /* OALAudioSession.m in Sources */,
@@ -1859,6 +1883,7 @@
 				3B66D24D1A12B274009CCEEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B66D24E1A12B274009CCEEA /* Build configuration list for PBXNativeTarget "Connect_4" */ = {
 			isa = XCConfigurationList;
@@ -1867,6 +1892,7 @@
 				3B66D2501A12B274009CCEEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
